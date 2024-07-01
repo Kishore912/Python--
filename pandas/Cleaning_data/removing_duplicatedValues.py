@@ -7,5 +7,5 @@ df = pd.read_csv('D:/kishore/python/pandas/data.csv')
 # E=df.duplicated()
 # print(E.to_string())
 
-df.drop_duplicates(inplace=True)
+df.drop_duplicates(inplace=True) # if you are not assigning it to df then do inplace=True or df = df.drop_duplicates()
 print(df.to_string())

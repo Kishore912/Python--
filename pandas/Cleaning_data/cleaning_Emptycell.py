@@ -9,4 +9,4 @@ E = pd.read_csv('D:/kishore/python/pandas/data.csv')
 # removing row that contain nan value using a specific column
 
 E.dropna(subset=["Calories"],inplace=True)
-print(E.to_string())
+print(E.to_string()) 
